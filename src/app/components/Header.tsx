@@ -38,7 +38,7 @@ export function Header() {
                 <Phone className="w-4 h-4" />
                 <span className="text-xs sm:text-sm">(951) 953-0658</span>
               </a>
-              <a href="mailto:jon@radelectric.info" className="hidden sm:flex items-center gap-2 hover:text-[#D4AF37] transition-colors touch-manipulation py-1">
+              <a href="mailto:jon@radelectricsolutions.com" className="hidden sm:flex items-center gap-2 hover:text-[#D4AF37] transition-colors touch-manipulation py-1">
                 <Mail className="w-4 h-4" />
                 <span className="text-xs sm:text-sm">jon@radelectric.info</span>
               </a>

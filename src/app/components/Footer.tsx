@@ -20,7 +20,7 @@ export function Footer() {
                 <Phone className="w-4 h-4" />
                 <span className="text-sm sm:text-base">(951) 953-0658</span>
               </a>
-              <a href="mailto:jon@radelectric.info" className="flex items-center gap-2 text-gray-400 hover:text-[#D4AF37] transition-colors touch-manipulation py-1">
+              <a href="mailto:jon@radelectricsolutions.com" className="flex items-center gap-2 text-gray-400 hover:text-[#D4AF37] transition-colors touch-manipulation py-1">
                 <Mail className="w-4 h-4" />
                 <span className="text-sm sm:text-base">jon@radelectric.info</span>
               </a>
