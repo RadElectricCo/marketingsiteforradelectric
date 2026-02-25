@@ -7,7 +7,7 @@ export function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 opacity-90">
         <img 
-          src="/src/assets/images/heroes/main-hero.jpg"
+          src="/images/heroes/main-hero.jpg"
           alt="Electrical work"
           className="w-full h-full object-cover"
         />

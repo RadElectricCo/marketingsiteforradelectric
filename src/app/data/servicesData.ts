@@ -20,7 +20,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'Electrical Installation & Repair',
     slug: 'electrical-installation-repair',
     description: 'Complete electrical services including panel upgrades, circuit installations, lighting, outlets, and emergency repairs.',
-    image: '/src/assets/images/services/electrical-repair.jpg',
+    image: '/images/services/electrical-repair.jpg',
     galleryCategory: 'electrical',
     fullDescription: {
       intro: 'From minor repairs to major installations, we handle all your electrical needs with precision and safety.',
@@ -42,7 +42,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'Remodeling & Renovations',
     slug: 'remodeling-renovations',
     description: 'Expert electrical work for home and commercial remodeling projects. Complete rewiring and modern upgrades.',
-    image: '/src/assets/images/services/remodeling.jpg',
+    image: '/images/services/remodeling.jpg',
     galleryCategory: 'residential',
     fullDescription: {
       intro: 'Transform your space with professional electrical installations tailored to your remodeling project.',
@@ -64,7 +64,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'EV Charger Installation',
     slug: 'ev-charger-installation',
     description: 'Professional electric vehicle charging station installation for your home or business. Level 2 chargers and more.',
-    image: '/src/assets/images/services/ev-charger.jpg',
+    image: '/images/services/ev-charger.jpg',
     galleryCategory: 'ev-chargers',
     fullDescription: {
       intro: 'Get ready for the electric vehicle revolution with professional EV charger installation.',
@@ -86,7 +86,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'Residential Services',
     slug: 'residential-services',
     description: 'All your home electrical needs from new installations to troubleshooting and safety inspections.',
-    image: '/src/assets/images/services/residential.jpg',
+    image: '/images/services/residential.jpg',
     galleryCategory: 'residential',
     fullDescription: {
       intro: 'Keep your home safe, efficient, and up to code with our comprehensive residential electrical services.',
@@ -108,7 +108,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'Commercial Services',
     slug: 'commercial-services',
     description: 'Comprehensive commercial electrical solutions for offices, retail spaces, and industrial facilities.',
-    image: '/src/assets/images/services/commercial.jpg',
+    image: '/images/services/commercial.jpg',
     galleryCategory: 'commercial',
     fullDescription: {
       intro: 'Power your business with reliable, code-compliant commercial electrical installations and maintenance.',
@@ -130,7 +130,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'ADU Electrical Services',
     slug: 'adu-electrical-services',
     description: 'Complete electrical installations for Accessory Dwelling Units including subpanels, rough and finish wiring, lighting, and dedicated circuits.',
-    image: '/src/assets/images/services/adu-services.jpg',
+    image: '/images/services/adu-services.jpg',
     galleryCategory: 'residential',
     fullDescription: {
       intro: 'Building an ADU? We specialize in complete electrical installations for Accessory Dwelling Units, including:',
@@ -152,7 +152,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'Insurance Electrical Work',
     slug: 'insurance-electrical-work',
     description: 'Electrical damage restoration from fire, water, storms, or accidents. We work with homeowners and insurance companies for complete repairs.',
-    image: '/src/assets/images/services/insurance-work.jpg',
+    image: '/images/services/insurance-work.jpg',
     galleryCategory: 'electrical',
     fullDescription: {
       intro: 'If your home has electrical damage due to fire, water, storms, or accidents, we work directly with homeowners and insurance companies to provide:',
@@ -174,7 +174,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'Security Systems',
     slug: 'security-systems',
     description: 'Professional installation of security cameras, access control systems, and alarm systems.',
-    image: '/src/assets/images/services/security-systems.jpg',
+    image: '/images/services/security-systems.jpg',
     galleryCategory: 'low-voltage',
     fullDescription: {
       intro: 'Protect your property with professional security system installations.',
@@ -196,7 +196,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'Network & Data Cabling',
     slug: 'network-data-cabling',
     description: 'Cat5e, Cat6, and fiber optic installation for reliable, high-speed data transmission.',
-    image: '/src/assets/images/services/network-cabling.jpg',
+    image: '/images/services/network-cabling.jpg',
     galleryCategory: 'low-voltage',
     fullDescription: {
       intro: 'Build a reliable network infrastructure with professional data cabling services.',
@@ -218,7 +218,7 @@ export const servicesData: ServiceDetail[] = [
     title: 'Audio/Video Installation',
     slug: 'audio-video-installation',
     description: 'Home theater systems, multi-room audio, and commercial AV solutions.',
-    image: '/src/assets/images/services/audio-video.jpg',
+    image: '/images/services/audio-video.jpg',
     galleryCategory: 'low-voltage',
     fullDescription: {
       intro: 'Experience premium entertainment with professional audio and video installations.',

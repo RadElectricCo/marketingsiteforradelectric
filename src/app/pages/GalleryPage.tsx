@@ -6,91 +6,91 @@ import { motion, AnimatePresence } from 'motion/react';
 const galleryPlaceholders = [
   {
     id: 'placeholder-1',
-    image: '/src/assets/images/gallery/placeholder-01.jpg',
+    image: '/images/gallery/placeholder-01.jpg',
     title: 'Tesla EV Charger & Dedicated Circuit Installation',
     category: 'EV Charger Installation',
     description: 'Professional Tesla EV charger installation with dedicated 240V circuit and smart charging capabilities.',
   },
   {
     id: 'placeholder-2',
-    image: '/src/assets/images/gallery/placeholder-02.jpg',
+    image: '/images/gallery/placeholder-02.jpg',
     title: 'Recessed Lighting & Ceiling Fan Installation',
     category: 'Residential Services',
     description: 'Energy-efficient LED recessed can lights with modern ceiling fan installation and separate wall controls.',
   },
   {
     id: 'placeholder-3',
-    image: '/src/assets/images/gallery/placeholder-03.jpg',
+    image: '/images/gallery/placeholder-03.jpg',
     title: 'Decorative Chandelier Lighting Installation',
     category: 'Electrical Installation & Repair',
     description: 'High-end chandelier installation with custom junction box reinforcement and dimmer switch integration.',
   },
   {
     id: 'placeholder-4',
-    image: '/src/assets/images/gallery/placeholder-04.jpg',
+    image: '/images/gallery/placeholder-04.jpg',
     title: 'New Construction Ceiling Rough Wiring',
     category: 'ADU Electrical Services',
     description: 'Complete electrical rough-in for new construction ADU with proper code-compliant installation.',
   },
   {
     id: 'placeholder-5',
-    image: '/src/assets/images/gallery/placeholder-05.jpg',
+    image: '/images/gallery/placeholder-05.jpg',
     title: 'Interior Wall Electrical Rough-In',
     category: 'Remodeling & Renovations',
     description: 'Professional wall electrical rough-in for home renovation with modern circuit installations.',
   },
   {
     id: 'placeholder-6',
-    image: '/src/assets/images/gallery/placeholder-06.jpg',
+    image: '/images/gallery/placeholder-06.jpg',
     title: 'Overhead Framing Electrical Installation',
     category: 'Remodeling & Renovations',
     description: 'Overhead electrical wiring through ceiling joists with proper cable management and support.',
   },
   {
     id: 'placeholder-7',
-    image: '/src/assets/images/gallery/placeholder-07.jpg',
+    image: '/images/gallery/placeholder-07.jpg',
     title: 'Residential Remodel Electrical Upgrade',
     category: 'Remodeling & Renovations',
     description: 'Complete electrical upgrade for residential remodel with new circuits and modern wiring.',
   },
   {
     id: 'placeholder-8',
-    image: '/src/assets/images/gallery/placeholder-08.jpg',
+    image: '/images/gallery/placeholder-08.jpg',
     title: 'Kitchen Electrical Rewiring & Preparation',
     category: 'Remodeling & Renovations',
     description: 'Kitchen electrical rewiring with dedicated appliance circuits and code-compliant installation.',
   },
   {
     id: 'placeholder-9',
-    image: '/src/assets/images/gallery/placeholder-09.jpg',
+    image: '/images/gallery/placeholder-09.jpg',
     title: 'Interior Electrical Wiring & Outlet Installation',
     category: 'Electrical Installation & Repair',
     description: 'Professional interior wiring with modern outlets and switches installation throughout the home.',
   },
   {
     id: 'placeholder-10',
-    image: '/src/assets/images/gallery/placeholder-10.jpg',
+    image: '/images/gallery/placeholder-10.jpg',
     title: 'Commercial Interior Linear LED Lighting Installation',
-    category: 'Commercial Servicesr',
+    category: 'Commercial Services',
     description: 'Professional installation of suspended linear LED lighting fixtures in a commercial space, delivering modern illumination, energy efficiency, and clean architectural design.',
   },
   {
     id: 'placeholder-11',
-    image: '/src/assets/images/gallery/placeholder-11.jpg',
+    image: '/images/gallery/placeholder-11.jpg',
     title: 'Modern Wall Sconce Lighting Installation',
     category: 'Residential Services',
     description: 'Premium wall sconce lighting fixtures with dimmer controls and custom wiring for elegant ambiance.',
   },
   {
     id: 'placeholder-12',
-    image: '/src/assets/images/gallery/placeholder-12.jpg',
+    image: '/images/gallery/placeholder-12.jpg',
     title: 'Modern Bedroom Recessed Lighting & Fixture Installation',
     category: 'Electrical Installation & Repair',
     description: 'Professional recessed LED lighting installation in a finished residential bedroom, providing clean, even illumination and energy-efficient performance. Includes precise ceiling cut-ins, secure wiring, and code-compliant installation for a polished final look.',
   },
   {
     id: 'placeholder-13',
-    image: '/src/assets/images/gallery/placeholder-13.jpg',
+    image: '/images/gallery/placeholder-13.jpg',
     title: 'Main Electrical Panel & Breaker Installation',
     category: 'Electrical Installation & Repair',
     description: '200-amp main service panel upgrade with modern circuit breakers and proper grounding.',
@@ -142,7 +142,7 @@ export function GalleryPage() {
       <div className="relative bg-gradient-to-r from-black to-[#111111] text-white py-12 sm:py-16 md:py-20">
         <div className="absolute inset-0 opacity-90">
           <img 
-            src="/src/assets/images/heroes/gallery-hero.jpg"
+            src="/images/heroes/gallery-hero.jpg"
             alt="Electrical work showcase"
             className="w-full h-full object-cover"
           />
