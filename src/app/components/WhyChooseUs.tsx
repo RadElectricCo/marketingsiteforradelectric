@@ -80,10 +80,6 @@ export function WhyChooseUs() {
                 <p className="text-gray-400">Professional installations for offices, retail spaces, and commercial properties of all sizes.</p>
               </div>
               <div className="border-l-4 border-[#D4AF37] pl-4">
-                <h4 className="font-bold text-white mb-1">EV Charger Specialists</h4>
-                <p className="text-gray-400">Expert installation of electric vehicle charging stations for home and business.</p>
-              </div>
-              <div className="border-l-4 border-[#D4AF37] pl-4">
                 <h4 className="font-bold text-white mb-1">Low Voltage & Data</h4>
                 <p className="text-gray-400">Professional security systems, network cabling, and audio/video installations.</p>
               </div>
