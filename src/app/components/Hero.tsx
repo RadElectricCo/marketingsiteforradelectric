@@ -5,16 +5,14 @@ export function Hero() {
   return (
     <div className="relative bg-gradient-to-r from-black to-[#111111] text-white">
       {/* Background image */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 opacity-70">
         <img 
           src="/images/heroes/main-hero.jpg"
           alt="Work Van"
           className="w-full h-full object-cover"
         />
-        {/* Simple dark overlay for text readability */}
-        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-black/50"></div>
       </div>
-      
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 md:py-32 lg:py-36">
         <div className="max-w-3xl">
           <motion.div
@@ -40,7 +38,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-gray-100 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-gray-200 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]"
           >
             Residential • Commercial • Repair • Remodeling • EV Charger Installation • Low Voltage Data
           </motion.p>
@@ -66,7 +64,7 @@ export function Hero() {
             >
               Call Now: (951) 953-0658
             </motion.a>
-          </motion.div>
+            </motion.div>
         </div>
       </div>
     </div>
